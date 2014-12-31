@@ -27,10 +27,10 @@ public class ShiriNewServlet extends HttpServlet{
 	
 	
 	
-	String line1 = new String("calculation 1: Area of circle with radius" + radius + "is: "+ circleArea);
-	String line2 = new String("calculation 2: Length of opposite where angle B is"+angleB +"is" + opposite);
-	String line3 = new String("calculation 3: Power of" +base+ "with exp of" + exp + "is:"+ powCalculation);
-	String resultStr = line1 + "<br>" + line2 + "<br>" +line3;
+	String line1 = new String(" calculation 1: Area of circle with radius " + radius + " is: " + circleArea);
+	String line2 = new String(" calculation 2: Length of opposite where angle B is " + angleB + " is " + opposite);
+	String line3 = new String(" calculation 3: Power of " + base + " with exp of " + exp + "is:" + powCalculation);
+	String resultStr = line1 + "<br>" + line2 + "<br>" + line3;
 	
 	resp.getWriter().println(resultStr);
 }
